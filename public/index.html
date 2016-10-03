@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./lib/motion-ui/dist/motion-ui.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <title>MP2 Starter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <nav class="nav-bar row large">
+    <div class="small-2 medium-1 columns">
+        <img class="logo resize-large" src="media/logo.png">
+    </div>
+    <div class="small-9 columns" id="positions">
+        <div class="row">
+            <div class="small-4 columns"><a id="nav1" href="#video-description">Video</a></div>
+            <div class="small-4 columns"><a id="nav2" href="#heroes-description">Hero</a></div>
+            <div class="small-4 columns"><a id="nav3" href="#map-carousel">Map</a></div>
+        </div>
+
+    </div>
+  </nav>
+
+  <section class="row" id="video-description">
+    <video autoplay="autoplay" loop muted class="columns small-12 large-6" id="video">
+        <source src="media/weROverwatch.mp4" type="video/mp4">
+    </video>
+    <div id="description" class="columns small-12 large-6">
+        <p>Overwatch is a team-based multiplayer first-person shooter video game developed and published by Blizzard Entertainment. Here is the plot of the game:</p>
+        <p>In a time of global crisis, an international task force of heroes banded together to restore peace to a war-torn world. This organization is known as Overwatch. After many years, Overwatch's influence waned and it was eventually disbanded. However, Overwatch may be gone, the world still needs heroes.</p>
+    </div>
+  </section>
+
+  <section class="row" id="heroes-description">
+    <div class="columns small-6 large-3">
+        <img data-open="modal1" src="media/soldier.png" alt="soldier">
+        <h4>Offense Hero</h4>
+    </div>
+    <div class="columns small-6 large-3">
+        <img data-open="modal2" src="media/mei.png" alt="mei">
+        <h4>Defense Hero</h4>
+    </div>
+    <div class="columns small-6 large-3">
+        <img data-open="modal3" src="media/reinhardt.png" alt="reinhardt">
+        <h4>Tank Hero</h4>
+    </div>
+    <div class="columns small-6 large-3">
+        <img data-open="modal4" src="media/mercy.png" alt="mercy">
+        <h4>Support Hero</h4>
+    </div>
+    <div class="reveal" id="modal1" data-reveal style="display: none;" data-animation-in="zoom-in" data-animation-out="zoom-out">
+        <img class="columns small-12 medium-6" src="media/soldier.png">
+        <div id="modal-description" class="columns small-12 medium-6">Offense characters have high mobility and are known for their ability to deal large amounts of damage. To balance this, offense characters have a low number of hit points.
+        </div>
+        <button class="close-button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="reveal" id="modal2" data-reveal style="display: none;" data-animation-in="zoom-in" data-animation-out="zoom-out">
+        <img class="columns small-12 medium-6" src="media/mei.png">
+        <div id="modal-description" class="columns small-12 medium-6">Defense characters excel at protecting specific locations and creating choke points. They can also provide several means of field support, such as sentry set-up and trapping the enemy team.
+        </div>
+        <button class="close-button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="reveal" id="modal3" data-reveal style="display: none;" data-animation-in="zoom-in" data-animation-out="zoom-out">
+        <img class="columns small-12 medium-6" src="media/reinhardt.png">
+        <div id="modal-description" class="columns small-12 medium-6">Tank characters have the most hit points out of all the characters in the game. Because of this, they are able to draw enemy fire away from their teammates to themselves, so as to disrupt the enemy team.
+        </div>
+        <button class="close-button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="reveal" id="modal4" data-reveal style="display: none;" data-animation-in="zoom-in" data-animation-out="zoom-out">
+        <img class="columns small-12 medium-6" src="media/mercy.png">
+        <div id="modal-description" class="columns small-12 medium-6">Support characters are utility characters that have abilities that enhance their own team and/or weaken the enemy team. Their buffs and debuffs they provide ensure that their teammates who do will make short work of their opponents.
+        </div>
+        <button class="close-button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+  </section>
+  <section class="row" id="map-carousel">
+    <ol class="small-12 large-6 columns" id="text">
+        <li>Assault Mode: The attacking team is tasked with capturing two target points in sequence on the map, while the defending team must stop them.</li>
+        <li>Escort Mode: The attacking team is tasked with escorting a payload to a certain delivery point before time runs out, while the defending team must stop them.</li>
+        <li>Hybrid Mode (Assault/Escort): The attacking team has to capture the payload and escort it to its destination, while the defending team tries to hold them back.</li>
+        <li>Control Mode: Each team tries to capture and maintain a common control point until their capture percentage reaches 100%. This game mode is played in a best-of-three format.</li>
+    </ol>
+    <div class="small-12 large-5 columns orbit" aria-label="map pictures" id="carousel" data-orbit>
+        <ul class="orbit-container">
+            <button class="orbit-previous">&#9664;&#xFE0E;</button>
+            <button class="orbit-next">&#9654;&#xFE0E;</button>
+            <div class="orbit-slide is-active">
+                <img src="media/dorado.jpg" alt="dorado" class="orbit-image">
+                <figcaption class="orbit-caption">Escort Mode: Dorado</figcaption>
+            </div>
+            <div class="orbit-slide">
+                <img src="media/hanamura.jpg" alt="hanamura" class="orbit-image">
+                <figcaption class="orbit-caption">Assault Mode: Hanamura</figcaption>
+            </div>
+            <div class="orbit-slide">
+                <img src="media/hollywood.jpg" alt="hollywood" class="orbit-image">
+                <figcaption class="orbit-caption">Hybrid Mode: Hollywood</figcaption>
+            </div>
+            <div class="orbit-slide">
+                <img src="media/ilios.jpg" alt="ilios" class="orbit-image">
+                <figcaption class="orbit-caption">Control Mode: Ilios</figcaption>
+            </div>
+        </ul>
+    </div>
+  </section>
+  <footer class="row">
+    <div class="footer-content row">
+        <div class="small-12 large-4 large-offset-2 columns">
+            <a href="https://playoverwatch.com/en-us/buy/"><span>Buy Now</span></a>
+        </div>
+        <div class="small-12 large-4 columns end">
+            <a href="https://us.battle.net/support/en/"><span>Support</span></a>
+        </div>
+        <div class="icon">
+            <span class="small-12 medium-2 large-1 medium-offset-2 large-offset-4 columns"><a href="https://www.twitter.com/PlayOverwatch" class="icon fa fa-twitter-square"><span>Twitter</span></a></span>
+            <span class="small-12 medium-2 large-1 columns"><a href="https://www.facebook.com/PlayOverwatch" class="icon fa fa-facebook-square"><span>Facebook</span></a></span>
+            <span class="small-12 medium-2 large-1 columns"><a href="https://www.youtube.com/PlayOverwatch" class="icon fa fa-youtube-play"><span>Youtube</span></a></span>
+            <span class="small-12 medium-2 large-1 columns end"><a href="https://www.instagram.com/playoverwatch" class="icon fa fa-instagram"><span>Instagram</span></a></span>
+        </div>
+    </div>
+    <div id="copyright">
+        <div>Dongyang Li &copy; </div><div>2016 All Rights Reserved</div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+
+  <script src="./lib/jquery/dist/jquery.min.js"></script>
+  <script src="./lib/foundation-sites/dist/foundation.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./lib/motion-ui/dist/motion-ui.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="http://localhost:35729/livereload.js"></script>
+
+</body>
+</html>

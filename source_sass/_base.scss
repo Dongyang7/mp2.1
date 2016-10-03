@@ -1,0 +1,122 @@
+// Add any custom Sass & CSS here
+body {
+    list-style: none;
+    font-family: 'Russo One', sans-serif;
+}
+h4 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+section {
+    padding-top:var(--pad);
+}
+.resize-small {
+    max-width: 40%;
+    @include transition(max-width 0.5s ease);
+}
+.resize-large {
+    max-width: 70%;
+    @include transition(max-width 0.5s ease);
+}
+@media screen and (max-width: 640px) {
+    #video-description {
+        margin-top: 10%;
+    }
+
+}
+@media screen and (min-width: 640px) {
+    #video-description {
+        margin-top: 4%;
+    }
+}
+nav {
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    &.large{
+    height: 60px;
+    font-size:25px;
+    @include transition(font-size 0.5s ease, height 0.5s ease);
+    }
+    &.small{
+    height:var(--pad);
+    font-size:20px;
+    @include transition(font-size 0.5s ease, height 0.5s ease);
+    }
+}
+.nav-active {
+    color: white;
+    }
+#positions {
+    text-align: right;
+}
+
+a {
+    &:hover{color: white;}
+}
+#video-description {
+    background: url("../media/background.png") fixed;
+    text-align: justify;
+}
+#video {
+    padding-bottom: var(--pad);
+}
+#description {
+    padding:var(--pad) var(--pad);
+}
+#heroes-description {
+    background: url("../media/background.png") fixed;
+}
+@keyframes show-modal {
+    from {display: none;}
+    to {display:block;}
+}
+.reveal{
+    animation-name: show-modal;
+    animation-duration: 4s;
+    padding-top:var(--pad);
+}
+#heroes-description div {
+    &:hover{opacity:0.7;}
+}
+#modal-description {
+    padding-top:var(--pad);
+    text-align: justify;
+}
+#map-carousel {
+    background: url("../media/background.png") fixed;
+    padding-bottom:var(--pad);
+}
+#text {
+    text-align: justify;
+    padding: 0px 25px;
+}
+.orbit-container{
+
+}
+.orbit-slide {
+//    height: 264.667px;
+}
+footer {
+    background-color: #1c1c1c;
+    padding-top:var(--pad);
+}
+.footer-content {
+    text-align: center;
+}
+.icon {
+    padding: var(--pad) 0 0;
+}
+footer span {
+    font-family: 'Russo One', sans-serif;
+}
+#copyright {
+    text-align: center;
+    color: white;
+    padding: var(--pad) var(--pad);
+}
