@@ -1,20 +1,21 @@
 MP2: Functional Design Research Write Up
-Netid:
+
+dl7:
 
 
 Webpage 1:
 
-- [URL]
-- [WRITE_UP]
+- [https://playoverwatch.com/en-us]
+- [Overwatch is a video game, and I found its website quite well-designed. The most interesting part of the webpage is the hero gallery. There are 22 characters in the game that you can choose to play, and all their thumbnails are listed in the left half of the gallery part. When you put your mouse on one of the thumbnails, it will expand a little, and change its background color from grey to orange. At the same time, the portrait of the character will show up in the right half of the gallery, with its name and a short introduction below.]
 
 
 Webpage 2:
 
-- [URL]
-- [WRITE_UP]
+- [http://www.bilibili.com/]
+- [Bilibili is a website for original videos. On its homepage, the videos are sorted according to their types. One function that caught my eyes is the navigation bar. It¡¯s a vertical bar fixed on the right side of the page, and will indicate where the user is. The cool thing about it is, there is a button named ¡°sequence¡± at the end of the navigation bar, once you click on it, you can drag the tags on the bar to wherever on the bar, and the according type of videos will show up in the sequence you just arranged. So, if you are particularly fond of some type of videos, you can put it on the top of the page simply by dragging its tag to the first place in the navigation bar.]
 
 
 Webpage 3:
 
-- [URL]
-- [WRITE_UP]
+- [https://www.taobao.com/]
+- [Taobao is a well-known shopping website in China. Most shopping website usually have a very long webpage to contain every sort of goods inside the homepage. There¡¯re two cool things about Taobao. One is that its search menu is fixed on the top of the screen when scrolling down the page, which allows the user to search anytime they want. The other is the button ¡°back to top¡± is always fixed on the right when scrolling. However, Taobao¡¯s webpage contains too many pictures of the goods, which makes the page looks a little messy, sometimes it will get very hard to find an item without the help of searching bar.]

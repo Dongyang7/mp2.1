@@ -1,20 +1,20 @@
 MP2: Visual Design Research Write Up
-Netid:
+
+dl7:
 
 
 Webpage 1:
 
-- [URL]
-- [WRITE_UP]
+- [http://www.vans.com/]
+- [Vans is a famous brand for casual shoes. Their website is quite simple and pretty. I love its high contrast design of the webpage. Most of the text on the page is white, with a dark background image. When the image is not dark itself, vans simply darken it to make the text more readable. The other thing I¡¯m interested in is its responsive design. When viewed on a computer, the footer part of the page lays out horizontally, with many columns containing information. When we resize it to a small size, the columns will collapse into drop menus, which will lay out vertically. This can make the text on a small screen more readable.]
 
 
 Webpage 2:
 
-- [URL]
-- [WRITE_UP]
-
+- [http://www.onitsukatiger.com/us/en-us/]
+- [Onitsuka Tiger is also a famous brand for casual shoes. I find most of the text on the page is also white. I think this is a design trend for clothing websites. But different from vans¡¯ webpage, this webpage doesn¡¯t darken the image to pursue a high contrast. It simply puts the text on the dark part of the image, or blur the image to make the text readable. But as we can see, readability of text is a common pursue of website designers. The webpage also have a label of its brand at the beginning of the header, with shadows around it, which makes the page much 3D than 2D.]
 
 Webpage 3:
 
-- [URL]
-- [WRITE_UP]
+- [http://www.dkny.com/ https://www.gucci.com/us/en]
+- [DKNY and GUCCI both are brands of luxurious clothing. I noticed some common designs among the two sites. They both have a white background, with black characters, which is totally different from the two instances above. And most of their images are models, this maybe the reason why there are fewer text on the images. They both have a much simpler layout than the two webpages above, usually with a picture of a model on a white background.]
