@@ -3,6 +3,10 @@ body {
     list-style: none;
     font-family: 'Russo One', sans-serif;
 }
+h1 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
 h4 {
     font-family: 'Russo One', sans-serif;
     text-align: center;
@@ -33,7 +37,7 @@ nav {
     background-color: #333;
     width: 100%;
     position: fixed;
-    z-index: 5;
+    z-index: 11;
     top: 0;
     left: 0;
     right: 0;
